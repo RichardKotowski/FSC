@@ -1,0 +1,163 @@
+
+body {
+	width: 100%;
+	background-color: #9F9F9F;
+	background-image: url(../images/hintergrund2.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	.center-block();
+	min-width: 320px;
+	max-width: 900px;
+	background-color: #F0F0F0;
+}
+
+.panel-heading {
+	text-transform: uppercase;
+}
+.panel-title {
+  font-size: 1em;
+}
+
+.kopf {
+	background-size: cover;
+	color: red;
+	font-size: 1.5em;
+	text-shadow: 0.25em 0.2em 0.5em black;
+	position:absolute;
+	top: 60px;
+	padding-left: 15px;
+}
+
+.fuss {
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: #888888;
+	text-align: center;
+	font-size: 0.75em;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.containerGalleria {
+	color: white;
+	background-color: black;
+}
+.galleria {
+	min-width: 300px;
+	min-height: 200px;
+}
+
+.imgGalleryFSC {
+	width: 160px;
+	height: 120px;
+}
+
+.terminAbgelaufen {
+	display: none;
+}
+
+.mitZugriff {
+    display: none;
+}
+.ohneZugriff {
+    display: inline;
+}
+
+/* MEDIA SCREEN ------------------------------------------------------ */
+
+@media screen and (min-width:321px) and (max-width:480px){
+.kopf {
+	top: 60px;
+	font-size: 1.75em;
+	text-shadow: 0.25em 0.25em 0.25em black;
+}
+.galleria {
+	min-width: 300px;
+	min-height: 200px;
+}
+}
+
+@media screen and (min-width:481px) and (max-width:767px){
+.kopf {
+	top: 100px;
+	font-size: 2.5em;
+	text-shadow: 0.25em 0.25em 0.25em black;
+}
+.galleria {
+	min-width: 400px;
+	min-height: 300px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+video {
+	width: 640px;
+	height: auto;
+}
+.kopf {
+	top: 150px;
+	font-size: 3.25em;
+	text-shadow: 0.3em 0.25em 0.25em black;
+}
+.galleria {
+	min-width: 600px;
+	min-height: 400px;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+video {
+	width: 640px;
+	height: auto;
+}
+.kopf {
+	top: 180px;
+	font-size: 3.5em;
+	text-shadow: 0.4em 0.25em 0.25em black;
+}
+.galleria {
+	min-width: 600px;
+	min-height: 400px;
+}
+.terminAbgelaufen {
+	display: table-row;
+	color: #B8B8B8;
+}
+}
+
+@media screen and (min-width: 1200px){
+video {
+	width: 640px;
+	height: auto;
+}
+.kopf {
+	top: 180px;
+	font-size: 4em;
+	text-shadow: 0.5em 0.25em 0.25em black;
+}
+.galleria {
+	min-width: 600px;
+	min-height: 400px;
+}
+
+.terminAbgelaufen {
+	display: table-row;
+	color: #B8B8B8;
+}
+}
+
+/* MEDIA PRINT ------------------------------------------------------ */
+
+@media print {
+.terminAbgelaufen {
+	display: none;
+}
+}
