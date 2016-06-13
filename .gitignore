@@ -1,8 +1,8 @@
-TechnikZeug/*
+TechnikZeug
 WebContent/fotos/2014*
 WebContent/fotos/2015*
-WebContent/galleria/*
-WebContent/sonstiges/*
+WebContent/galleria
+WebContent/sonstiges
 
 #################
 ## Eclipse
@@ -221,3 +221,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+/TechnikZeug/
