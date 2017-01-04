@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Freizeit-Sport-Club Alzenau">
+	<meta name="description" content="FSC-Alzenau, Gemeinsame Freizeit- und Sportaktivitäten in Alzenau">
+	<meta name="keywords" content="Freizeit-Sport-Club,FSC,Alzenau,Freizeit,Sport,Fussball">
+
+    <title>FSC-Alzenau</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap-image-gallery.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap-image-gallery-FSC.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="container">
+
+		<h3>Freizeit-Sport-Club Alzenau e.V.</h3>
+
+	    <blockquote>
+	        <p>Traditionelles Gansessen 13.11.2016</p>
+	    </blockquote>
+
+		<!-- PHOTO GALLERY Buttons -->
+
+	    <form class="form-inline">
+	        <div>
+	        	<p>
+	        		Mein Tipp:<br/>
+	        		drücken Sie zuerst den Button "mit/ohne Rahmen", dann das erste Foto.
+	        	</p>
+	        </div>
+	        <div class="form-group">
+	            <button id="image-gallery-button" type="button" class="btn btn-primary btn-sm">
+	                <i class="glyphicon glyphicon-fullscreen"></i>
+	                Einzelne Fotos zeigen
+	            </button>
+		        <div class="btn-group" data-toggle="buttons">
+		          <label class="btn btn-primary btn-sm">
+		            <i class="glyphicon glyphicon-film"></i>
+		            <input id="borderless-checkbox" type="checkbox" checked>
+		            mit/ohne Rahmen
+		          </label>
+		        </div>
+	        </div>
+	    </form>
+		<br/>
+		<!-- PHOTO GALLERY Fotos -->
+
+		<div id="links" class="imgGalleryFSC">
+		    <a href="DSC_3303.jpg" title="" data-gallery><img src="DSC_3303.jpg" width="138" height="92"></a>
+		    <a href="DSC_3304.jpg" title="" data-gallery><img src="DSC_3304.jpg" width="138" height="92"></a>
+		    <a href="DSC_3305.jpg" title="" data-gallery><img src="DSC_3305.jpg" width="138" height="92"></a>
+		    <a href="DSC_3306.jpg" title="" data-gallery><img src="DSC_3306.jpg" width="138" height="92"></a>
+		    <a href="DSC_3307.jpg" title="" data-gallery><img src="DSC_3307.jpg" width="138" height="92"></a>
+		    <a href="DSC_3308.jpg" title="" data-gallery><img src="DSC_3308.jpg" width="138" height="92"></a>
+		    <a href="DSC_3309.jpg" title="" data-gallery><img src="DSC_3309.jpg" width="138" height="92"></a>
+		    <a href="DSC_3311.jpg" title="" data-gallery><img src="DSC_3311.jpg" width="138" height="92"></a>
+		    <a href="DSC_3312.jpg" title="" data-gallery><img src="DSC_3312.jpg" width="138" height="92"></a>
+		    <a href="DSC_3314.jpg" title="" data-gallery><img src="DSC_3314.jpg" width="138" height="92"></a>
+		    <a href="DSC_3315.jpg" title="" data-gallery><img src="DSC_3315.jpg" width="138" height="92"></a>
+		    <a href="DSC_3317.jpg" title="" data-gallery><img src="DSC_3317.jpg" width="138" height="92"></a>
+		</div>
+
+	</div>
+
+	<!-- PHOTO GALLERY Steuerung -->
+
+	<div id="blueimp-gallery" class="blueimp-gallery">
+	    <!-- The container for the modal slides -->
+	    <div class="slides"></div>
+	    <!-- Controls for the borderless lightbox -->
+	    <h3 class="title"></h3>
+	    <a class="prev">‹</a>
+	    <a class="next">›</a>
+	    <a class="close">×</a>
+	    <a class="play-pause"></a>
+	    <ol class="indicator"></ol>
+	    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+	    <div class="modal fade">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <button type="button" class="close" aria-hidden="true">&times;</button>
+	                    <h4 class="modal-title"></h4>
+	                </div>
+	                <div class="modal-body next"></div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default pull-left prev">
+	                        <i class="glyphicon glyphicon-chevron-left"></i>
+	                        Previous
+	                    </button>
+	                    <button type="button" class="btn btn-primary next">
+	                        Next
+	                        <i class="glyphicon glyphicon-chevron-right"></i>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- Photo Gallery -->
+	<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+	<script src="../../js/bootstrap-image-gallery.min.js"></script>
+    <script src="../../js/bootstrap-image-gallery-FSC.js"></script>
+
+  </body>
+</html>
